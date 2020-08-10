@@ -1,0 +1,33 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: #494D5F;
+}
+
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+}
+
+#title {
+  text-align: center;
+}
+
+.btn {
+  padding: 2em;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px #000000;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.btn:hover {
+  background-color: #8087A6;
+  box-shadow: 0em 1em 2em #343E6E;
+  color: #fff;
+  transform: translateY(-7px);
+}
